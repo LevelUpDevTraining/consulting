@@ -15,4 +15,13 @@
 /* Your own custom utilities */
 
 @layer components {
+  .main-layout {
+    @apply container mx-auto;
+  }
+  .section-layout {
+    @apply px-5 md:px-10 xl:px-40;
+  }
+  .debug {
+    @apply border border-red-500 bg-green-100;
+  }
 }
